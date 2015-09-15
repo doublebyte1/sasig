@@ -73,21 +73,82 @@
 \tableofcontents}
 \end{frame}
 
+%TODO: change layout, atribuitions, trocar cont. por exemplo
 
 \section{Introdu\c{c}\~{a}o} 
 \begin{frame}
-\frametitle{O que \'{e} a Ci\^{e}ncia de Dados?}
+\frametitle{Cientistas \& Unic\'{o}rnios}
+\small{ 
+      \begin{itemize}    
+        \item<1->``Data Scientist'' is a Data Analyst who lives in California.
+        \item<1->A data scientist is someone \textit{who is better at statistics than any software engineer and better at software engineering than any statistician.} (Wills, Cloudera)
+      \end{itemize}                
+}
+    \begin{figure}   
+         \includegraphics[width=0.5\textwidth]{venn.png}   
+    \end{figure}     
 
-%TODO: explain what is data science
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Dados, Informa\c{c}\~{a}o e Conhecimento}
+
+\small{ 
+      \begin{itemize}    
+        \item<1->Dados sao os factos que descrevem o mundo.%e.g.: temperatura, idade, numero de degraus da escada de casa
+        \item<1->A informacao surge quando transformamos esses valores em algo relevante.%Pode ajudar-nos a tomar decisoes informadas
+        \item<1->Conhecimento implica uma generalizacao dos dados e da informacao, de forma a criar regras.%'Nteste processo podemos simular a inteligencia humana, atraves de modelos analiticos
+      \end{itemize}                
+}
+
+    \begin{figure}   
+         \includegraphics[width=0.5\textwidth]{data.png}   
+    \end{figure}     
+
 
 \end{frame}
 
 \begin{frame}
-\frametitle{Ci\^{e}ncia de Dados Espaciais}
+\frametitle{Algo \textit{espacial}...}
 
-%TODO: explain what is spatial data science
+Lei de Tobler:\\
+\textit{Everything is related to everything else, but near things are more related to each other.}%First Law of Geography
+%behind buffers or heatmaps
+
+\begin{columns}
+  \begin{column}{0.4\textwidth}
+    \begin{figure}  
+	\includegraphics[width=\textwidth]{cruise.png}\\
+           \tiny{Heatmap de Tweets perto de um Cruzeiro.}%higher epsilon and lower minpts  	          
+       \end{figure}             
+  \end{column}
+  \begin{column}{0.6\textwidth}
+      \begin{figure}  
+	\includegraphics[width=\textwidth]{schools.png}\\
+           \tiny{Buffers de acidentes ao redor de escolas.}%lower epsilon and higher minpts  	          
+       \end{figure}  
+  \end{column}  
+\end{columns}
 
 \end{frame}
+
+\begin{frame}
+\frametitle{Problemas Fundamentais}
+
+Longley \textit{ET AL} (2005):
+\small{ 
+      \begin{itemize} 
+      \item<2->O comportamento espacial actual, muitas vezes reflecte padroes passados.%necessidade de estudar series temporais
+        \item<3->A explicacao no tempo apenas necessita de olhar para o passado, mas a explicacao no espaco necessita de olhar em todas as direccoes simultaneamente.%A autocorrelacao temporal tem uma dimensao, enquanto que a autocorrelacao espacial tem duas ou tres dimensoes
+        \item<4->Embora alguns fenomenos espaciais variem de forma gradual atraves do espaco, outros podem exibir uma extrema irregularidade.%break Toblers Law. Por exemplo acidentes de trafico
+        \item<5->Embora a autocorrelacao espacial nos ajude a construir representacoes, ela pode frustrar os nossos esforcos de predicao.% patterns of spatial autocorrelation in one variable, would be likely mirrored on others, but that does not imply any causality.
+      \end{itemize}                
+}
+
+\end{frame}
+
 
 \section{Tend\^{e}ncias} 
 \begin{frame}
@@ -109,56 +170,203 @@
 
 \end{frame}
 
-
-
-
 \begin{frame}
 \frametitle{Import\^{a}ncia Crescente}
 
-%TODO: explain increasing scope
+      \begin{itemize}    %ubiquidade da ciencia de dados, e nao so reservada a investigacao
+        \item<1->A ciencia de dados ganha torna-se cada vez mais importante, a medida que entra em novos campos.%personal health
+        \item<2->A Geografia tambem benefia desse impulso, a medida que o publico em geral toma consciencia de que a maior parte das coisas, acontecem num lugar.
+      \end{itemize}                
+      
+    \begin{figure}   
+         \includegraphics[width=0.4\textwidth]{runkeeper.jpg}   
+    \end{figure} 
 
 \end{frame}
 
 \begin{frame}
+\frametitle{Import\^{a}ncia Crescente (cont.)}
+
+      \begin{itemize}
+        \item<1->\textit{Whitings} e uma balanca ``inteligente''.
+        \item<2->Recolhe medicoes corporais precisas: peso, massa gorda e batimentos cardiacos.
+        \item<3->Uma app analisa estes dados, mostra tendencias e permite gerar planos e monitorizar metas.%por exemplo para perder peso 
+      \end{itemize}                
+      
+\begin{columns}
+  \begin{column}{0.7\textwidth}
+    \begin{figure}  
+	\includegraphics[width=0.7\textwidth]{scale.png}\\
+       \end{figure}             
+  \end{column}
+  \begin{column}{0.3\textwidth}
+      \begin{figure}  
+	\includegraphics[width=0.7\textwidth]{app.png}\\
+       \end{figure}  
+  \end{column}  
+\end{columns}
+\end{frame}
+
+%Outro exemplo: seguranca pessoal de idosos?
+
+
+
+\begin{frame}
 \frametitle{Mais Dados}
+%Automaticos
+      \begin{itemize}
+        \item<1->Existe uma explosao na quantidade de dados gerados por sensores (IoT, IoE).
+        \item<2->Gracas a tecnologias de posicionamento mais baratas e generalizadas (e.g.: receptores de GPS), uma proporcao grande destes dados esta georeferenciada.
+      \end{itemize}                
+      
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}  
+	\includegraphics[width=0.7\textwidth]{cisco.png}\\
+       \end{figure}             
+  \end{column}
+  \begin{column}{0.5\textwidth}
+      \begin{figure}  
+	\includegraphics[width=0.7\textwidth]{drones.png}\\
+       \end{figure}  
+  \end{column}  
+\end{columns}
 
-%TODO: explain more data (automatic)
+\end{frame}
 
+\begin{frame}
+\frametitle{Mais Dados (cont.)}
+%Automaticos
+      \begin{itemize}
+        \item<1->LIDAR: mede propriedades da luz reflectida de modo a obter a distancia ou outra informacao a respeito um determinado objecto distante.
+        \item<2->O UAV LIDAR aplica esta tecnica a partir de um drone.%permite fazer levantamentos geodesicos muito acurados, e com baixo custo; funciona em sitios com nuvens, ou em tuneis, onde o sinal de GPS 'e limitado
+        %TODO: arranjar um exemplo
+        %e airborne ops run for 7 days only and acquired billions of laser points and thousands of air photo on project area blocks encompassing approximately 29,000 Ha - See more at: http://blog.lidarnews.com/uavs-set-to-revolutionize-archaeological-mapping/#sthash.0aofVAFp.dpuf
+      \end{itemize}                
+%tempos excitantes para a arqueolologia
+    \begin{figure}   
+         \includegraphics[width=0.8\textwidth]{lidar.jpg} %choque com um aviao  
+    \end{figure} 
+            
 \end{frame}
 
 \begin{frame}
 \frametitle{E Ainda Mais Dados}
+%Nao-automaticos
+      \begin{itemize}
+        \item<1->Existe uma explosao na quantidade de UGC.
+        \item<1->voluntario: citizens as sensors e VGI (p.e: OSM).
+        \item<1->Nao-voluntario (?): gerados nas redes sociais (p.e: Twitter).        
+      \end{itemize}                
 
-%TODO: explain more data (non-automatic)
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}  
+            \includegraphics[width=0.7\textwidth]{osm_members.png}\\
+            \tiny{Evolucao do numero de membros do OSM.}
+        \end{figure}             
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}  
+            \includegraphics[width=0.7\textwidth]{twittermap.png}\\
+            \tiny{Mapa com a localizacao do ultimo milhao de Tweets.}
+        \end{figure}  
+    \end{column}  
+    \end{columns} 
 
 \end{frame}
+
+
+\begin{frame}
+\frametitle{E Ainda Mais Dados (cont.)}
+
+      \begin{itemize}
+        %\item<1->Com a chegada de cruzeiros ao Porto de Barcelona, ha uma explosao no numero de Tweets.
+        \item<2->Um metodo de deteccao de origem, permite diferenciar os Tweets gerados por locais dos gerados por estrangeiros.
+        \item<3->Podemos observar que ha um acrescimo no numero de Tweets gerados por estrangeiros, apos a chegada dos cruzeiros ao Porto de Barcelona.
+        %\item<1->Com base nesta classificacao, podemos observar que estes dois grupos se distribuem diferentemente pela cidade.        
+      \end{itemize}                
+
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}  
+            \includegraphics[width=0.7\textwidth]{normal_vs_foreign_CapSetmanaCreuers.png}\\
+            \tiny{Clusters de Tweets de locais e estrangeiros.}
+        \end{figure}             
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}  
+            \includegraphics[width=0.7\textwidth]{barriosForeignUsersCapSetmanaCreuers_cnt.png}\\
+            \tiny{Distribuicao de densidades de Tweets de estrangeiros.}
+        \end{figure}  
+    \end{column}  
+    \end{columns} 
+
+\end{frame}
+
 
 \begin{frame}
 \frametitle{``Arqueologia'' de Dados}
 
-%TODO: explain data archaeology
+      \begin{itemize}
+        \item<1->Existe uma necessidade crescente de ``recuperar'' fontes de dados de legacy (por exemplo em formato analogico)
+        \item<2->Embora isto implique um desafio tecnologico, muitas vezes estes conjuntos de dados sao extremamente valiosos.%explicar porque
+      \end{itemize}                
+    \begin{figure}   
+         \includegraphics[width=0.8\textwidth]{snow.jpg}\\
+         \tiny{Mapa de casos de colera em Londres, produzido por John Snow (1864).}
+    \end{figure} 
 
 \end{frame}
 
+\begin{frame}
+\frametitle{``Arqueologia'' de Dados (cont.)}
+
+      \begin{itemize}      
+        \item<1->Dados de informacao de pescas (biomassas), foram guardados sem metadados.
+        \item<2->Para capturar estes dados, foi necessario efectuar cruzeiros com um custo elevadissimo.%valor em $$$
+        \item<3->A informacao capturada e irrepetivel.%valor em unicidade        
+        \item<4->Os metadados estao encodificados na path do ficheiro (i.e.: timestamp, nome do cruzeiro).%foi necessario criar uma aplicacao que navegue e interprete as paths no disco, e as associe aos ficheiros
+        %A aplicacao tem de ser monitorizada por um operador
+      \end{itemize}                
+    \begin{figure}   
+         \includegraphics[width=0.8\textwidth]{fao.png}
+    \end{figure} 
+\end{frame}
 
 \begin{frame}
 \frametitle{Tecnologias de \textit{Big Data}}
 
-%TODO: explain Big Data
+      \begin{itemize}      
+        \item<1->3 Vs.
+        \item<2->Computacao em ambiente Cloud, NoSQL, Processamento em tempo-real ,Linked Data.%web semantica
+        \item<4->Big Spatial Data.
+      \end{itemize}                
+    \begin{figure}   
+         \includegraphics[width=0.5\textwidth]{3vs.png}
+    \end{figure} 
 
 \end{frame}
+
+
+\frametitle{Tecnologias de \textit{Big Data} (cont.)}
+
+%TODO: algo de SigLibre
+
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Uso Generalizado de \textit{Machine Learning}}
 
-%TODO: explain ML
+%TODO: explain ML; exemplo: prever trafico em vez de "old school model", e decision tree
 
 \end{frame}
 
 \begin{frame}
 \frametitle{Jornalismo de Dados \& \textit{Story Telling}}
 
-%TODO: explain story telling
+%TODO: explain story telling; exemplo Kibana de acidentes
 % visualizacao: em outro slide?
 
 \end{frame}
@@ -166,7 +374,7 @@
 \begin{frame}
 \frametitle{Mais e Melhores Dados Abertos}
 
-%TODO: explain Open Data
+%TODO: explain Open Data; falar do OpenGOV
 
 \end{frame}
 
@@ -178,12 +386,6 @@
 \end{frame}
 
 \section{Consideracoes Finais} 
-\begin{frame}
-\frametitle{Resumo}
-
-%TODO: resume the trends
-
-\end{frame}
 
 \begin{frame}
 \frametitle{Import\^{a}ncia destas Tend\^{e}ncias para o FOSS4G}
@@ -191,7 +393,22 @@
 %TODO: SIG Open-Source
 %Free and Open Source Software for Geospatia
 
+%ha mais dados e mais pessoas a quererem trabalhar com eles...
+
+%Areas onde o FOSS4Geo se pode import
+
+%standards de dados abertos (formatos, servicos); nao existem formatos standard para IoT
+%bibliotecas de machine learning com capacidades espaciais (QGIS, R)
+%visualiacao: D3
+%infra estrutura e processamento de Big Spatial Data
+
 \end{frame}
+
+%Slide final
+
+%importancia do software aberto para a Etica> Trust
+%Nao ha backdoors ou codigo mailicioso
+
 
 \begin{frame}
 \frametitle{Obrigada pela vossa Aten\c{c}\~{a}o}

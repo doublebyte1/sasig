@@ -1,4 +1,4 @@
 pdflatex sasig
 pdflatex sasig
-impressive sasig.pdf
+okular --presentation sasig.pdf
 
