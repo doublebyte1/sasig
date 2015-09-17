@@ -2,6 +2,8 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{tikz}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{ragged2e}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
@@ -19,6 +21,12 @@
 %ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newmdenv[tikzsetting={draw=black,fill=white,fill opacity=0.5, line width=0pt},
+      backgroundcolor=none,leftmargin=5,rightmargin=5,innertopmargin=4pt]
+      {titleBox}
+
+
 \definecolor{dred}{rgb}{0.647059, 0.164706, 0.164706}
 \definecolor{dgreen}{rgb}{0., 0.545098, 0.545098}
 %\usecolortheme[named=dred]{structure}
@@ -26,8 +34,11 @@
 %\usetheme{Marburg}
 %\usecolortheme{crane}
 
-\usetheme{AnnArbor}
-\usecolortheme{wolverine}
+%\usetheme{AnnArbor}
+%\usecolortheme{wolverine}
+
+\usetheme{Warsaw}
+\usecolortheme{dolphin}
 
 %\title{Horizontes no Panorama da Ci\^{e}ncia de Dados Espaciais}
 \title{Ci\^{e}ncia de Dados Espaciais}
@@ -38,7 +49,7 @@
 \institute[shortinst]{\inst{1} Eurecat, Centro Tecnol\'{o}gico da Catalunha}
 
 %\date{\today} 
-\titlegraphic{\includegraphics[width=.35\textwidth]{3d2.png}}
+%\titlegraphic{\includegraphics[width=.35\textwidth]{3d2.png}}
 
 \usepackage{listings}
 
@@ -64,8 +75,25 @@
 \setbeamertemplate{footline}[page number]
 \setbeamertemplate{navigation symbols}{}
 
-\titlepage
+%\titlepage
 
+{ \usebackgroundtemplate{\includegraphics[width=\paperwidth]{3d2.png}} 
+\begin{frame}[plain]
+    \vspace{10em}
+    \begin{titleBox}
+        \centering \textbf{Ci\^{e}ncia de Dados Espaciais}\\
+        \textbf{Aonde Vamos?}\\  
+        \justify
+        \small{Joana Sim\~{o}es}\\
+        \small{Eurecat, Centro Tecnol\'{o}gico da Catalunha\\
+        }
+        
+    \end{titleBox}
+
+%\frametitle{Frame with nice background} 
+%\begin{itemize} \item 1 \item 2 \item 3 \end{itemize}
+\end{frame} 
+} 
  
 \begin{frame}
 \frametitle{Tabela de Conte\'{u}dos}
@@ -174,7 +202,7 @@ Longley \textit{ET AL} (2005):
 \frametitle{Import\^{a}ncia Crescente}
 
       \begin{itemize}    %ubiquidade da ciencia de dados, e nao so reservada a investigacao
-        \item<1->A ciencia de dados ganha torna-se cada vez mais importante, a medida que entra em novos campos.%personal health
+        \item<1->A ciencia de dados ganha torna-se cada vez mais importante, a medida que entra em novos campos.%personal health eHealth
         \item<2->A Geografia tambem benefia desse impulso, a medida que o publico em geral toma consciencia de que a maior parte das coisas, acontecem num lugar.
       \end{itemize}                
       
@@ -350,18 +378,51 @@ Longley \textit{ET AL} (2005):
 
 
 \frametitle{Tecnologias de \textit{Big Data} (cont.)}
-
-%TODO: algo de SigLibre
-
+\begin{frame}
+Desenvolvimento de tecnologias espaciais escalaveis e distribuidas.
+      \begin{itemize}      
+        \item<2->Suporte espacial ainda limitado.%implementado em poucas tecnologias e com limitacoes
+        \item<3->Necessidade crescente de saber em que situacoes utilizar cada tecnologia.%trade offs nem sempre sao claros: benchmarking
+      \end{itemize}                
+    \begin{figure}   
+         \includegraphics[width=0.7\textwidth]{general1.png}\\
+         \tiny{Benchmarking de bases de dados espaciais na cloud;.}%relacionais vs cluster         
+    \end{figure} 
 \end{frame}
-
 
 \begin{frame}
-\frametitle{Uso Generalizado de \textit{Machine Learning}}
+\frametitle{Uso Cada vez Mais Generalizado de \textit{ML}}
+A disponibilidade crescente de dados e os progressos computacionais vao impulsionar o uso de Machine Learning.
+      \begin{itemize}      
+        \item<2->Ascendencia algoritmos computacionalmente intensivos (p.e.: Deep Learning)%
+        \item<3->Modelos Ensemble.%Grid search for parameters
+        \item<4->Modelos espaciais.%Mts dimensoes
+        \item<5->Descriptivo $\rightarrow$ Predictivo
+      \end{itemize}                
+    \begin{figure}   
+         \includegraphics[width=0.8\textwidth]{deep.png}\\
+         \tiny{Arquitectura de uma red de Deep Learning para reconhecimento facial.}
+    \end{figure} 
+\end{frame}
 
-%TODO: explain ML; exemplo: prever trafico em vez de "old school model", e decision tree
+\begin{frame}
+\frametitle{Uso Cada vez Mais Generalizado de \textit{ML} (cont.)}
+
+    Trafico e um dominio onde tradicionalmente se utilizam modelos de micro-simulacao.
+      \begin{itemize}         
+        \item<2->Foram aplicados modelos de ML para prever os tempos de viagem na cidade de Barcelona.
+        \item<3->Os modelos foram treinados e validados com um ano de dados.
+        \item<4->A ANN foi descartada a favor de uma SVM.
+       \end{itemize}            
+          
+        \begin{figure}   
+         \includegraphics[width=0.6\textwidth]{prediction.png}\\
+         \tiny{Ajuste entre as previsoes do SVM (verde) e os valores observados (vermelho).}
+    \end{figure} 
+
 
 \end{frame}
+
 
 \begin{frame}
 \frametitle{Jornalismo de Dados \& \textit{Story Telling}}
