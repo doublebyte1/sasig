@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  17 SEP 2015 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  18 SEP 2015 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,13 +1305,13 @@ sasig.toc) [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 119.
 
 
 <venn.png, id=61, 1448.41125pt x 1084.05pt>
 File: venn.png Graphic file (type png)
  <use venn.png>
-Package pdftex.def Info: venn.png used on input line 120.
+Package pdftex.def Info: venn.png used on input line 119.
 (pdftex.def)             Requested size: 153.64493pt x 114.97823pt.
  [3
 
@@ -1319,68 +1319,68 @@ Package pdftex.def Info: venn.png used on input line 120.
 <data.png, id=72, 422.32782pt x 291.33844pt>
 File: data.png Graphic file (type png)
  <use data.png>
-Package pdftex.def Info: data.png used on input line 139.
+Package pdftex.def Info: data.png used on input line 138.
 (pdftex.def)             Requested size: 153.64493pt x 105.99312pt.
  [4
 
  <./data.png>]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 162.
 
 
 <cruise.png, id=81, 666.23906pt x 418.71896pt>
 File: cruise.png Graphic file (type png)
  <use cruise.png>
-Package pdftex.def Info: cruise.png used on input line 163.
+Package pdftex.def Info: cruise.png used on input line 162.
 (pdftex.def)             Requested size: 122.91406pt x 77.24455pt.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 163.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 162.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 163
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 162
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 163
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 162
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 163.
+(Font)              <10.95> on input line 162.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 163.
+(Font)              <8> on input line 162.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 163.
-LaTeX Font Info:    Try loading font information for U+msa on input line 163.
+(Font)              <6> on input line 162.
+LaTeX Font Info:    Try loading font information for U+msa on input line 162.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 163.
+LaTeX Font Info:    Try loading font information for U+msb on input line 162.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 162.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 162.
 
 
 <schools.png, id=82, 559.33969pt x 291.33844pt>
 File: schools.png Graphic file (type png)
  <use schools.png>
-Package pdftex.def Info: schools.png used on input line 163.
+Package pdftex.def Info: schools.png used on input line 162.
 (pdftex.def)             Requested size: 184.3758pt x 96.03528pt.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 162.
 
  [5
 
@@ -1398,7 +1398,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
 <fortune-teller.png, id=133, 485.012pt x 313.973pt>
 File: fortune-teller.png Graphic file (type png)
  <use fortune-teller.png>
-Package pdftex.def Info: fortune-teller.png used on input line 189.
+Package pdftex.def Info: fortune-teller.png used on input line 188.
 (pdftex.def)             Requested size: 215.10196pt x 139.24564pt.
 
 [11
@@ -1407,7 +1407,7 @@ Package pdftex.def Info: fortune-teller.png used on input line 189.
 File: trends.png Graphic file (type png)
 
 <use trends.png>
-Package pdftex.def Info: trends.png used on input line 199.
+Package pdftex.def Info: trends.png used on input line 198.
 (pdftex.def)             Requested size: 307.28987pt x 172.84778pt.
  [12
 
@@ -1415,14 +1415,14 @@ Package pdftex.def Info: trends.png used on input line 199.
 <runkeeper.jpg, id=151, 543.02875pt x 478.78876pt>
 File: runkeeper.jpg Graphic file (type jpg)
  <use runkeeper.jpg>
-Package pdftex.def Info: runkeeper.jpg used on input line 213.
+Package pdftex.def Info: runkeeper.jpg used on input line 212.
 (pdftex.def)             Requested size: 122.91406pt x 108.37302pt.
  [13
 
  <./runkeeper.jpg>]
 File: runkeeper.jpg Graphic file (type jpg)
  <use runkeeper.jpg>
-Package pdftex.def Info: runkeeper.jpg used on input line 213.
+Package pdftex.def Info: runkeeper.jpg used on input line 212.
 (pdftex.def)             Requested size: 122.91406pt x 108.37302pt.
  [14
 
@@ -1430,35 +1430,35 @@ Package pdftex.def Info: runkeeper.jpg used on input line 213.
 <scale.png, id=169, 1356.06625pt x 857.2025pt>
 File: scale.png Graphic file (type png)
  <use scale.png>
-Package pdftex.def Info: scale.png used on input line 236.
+Package pdftex.def Info: scale.png used on input line 235.
 (pdftex.def)             Requested size: 150.57071pt x 95.16891pt.
 
 <app.png, id=170, 501.875pt x 839.135pt>
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 236.
+Package pdftex.def Info: app.png used on input line 235.
 (pdftex.def)             Requested size: 64.53123pt x 107.88779pt.
  [15
 
  <./scale.png> <./app.png>]
 File: scale.png Graphic file (type png)
  <use scale.png>
-Package pdftex.def Info: scale.png used on input line 236.
+Package pdftex.def Info: scale.png used on input line 235.
 (pdftex.def)             Requested size: 150.57071pt x 95.16891pt.
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 236.
+Package pdftex.def Info: app.png used on input line 235.
 (pdftex.def)             Requested size: 64.53123pt x 107.88779pt.
  [16
 
 ]
 File: scale.png Graphic file (type png)
  <use scale.png>
-Package pdftex.def Info: scale.png used on input line 236.
+Package pdftex.def Info: scale.png used on input line 235.
 (pdftex.def)             Requested size: 150.57071pt x 95.16891pt.
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 236.
+Package pdftex.def Info: app.png used on input line 235.
 (pdftex.def)             Requested size: 64.53123pt x 107.88779pt.
 
 [17
@@ -1466,24 +1466,24 @@ Package pdftex.def Info: app.png used on input line 236.
 ] <cisco.png, id=197, 374.14781pt x 161.10187pt>
 File: cisco.png Graphic file (type png)
  <use cisco.png>
-Package pdftex.def Info: cisco.png used on input line 263.
+Package pdftex.def Info: cisco.png used on input line 262.
 (pdftex.def)             Requested size: 107.55098pt x 46.31027pt.
 
 <drones.png, id=198, 332.74312pt x 205.5178pt>
 File: drones.png Graphic file (type png)
  <use drones.png>
-Package pdftex.def Info: drones.png used on input line 263.
+Package pdftex.def Info: drones.png used on input line 262.
 (pdftex.def)             Requested size: 107.55098pt x 66.42558pt.
  [18
 
  <./cisco.png (PNG copy)> <./drones.png (PNG copy)>]
 File: cisco.png Graphic file (type png)
  <use cisco.png>
-Package pdftex.def Info: cisco.png used on input line 263.
+Package pdftex.def Info: cisco.png used on input line 262.
 (pdftex.def)             Requested size: 107.55098pt x 46.31027pt.
 File: drones.png Graphic file (type png)
  <use drones.png>
-Package pdftex.def Info: drones.png used on input line 263.
+Package pdftex.def Info: drones.png used on input line 262.
 (pdftex.def)             Requested size: 107.55098pt x 66.42558pt.
 
 [19
@@ -1491,14 +1491,14 @@ Package pdftex.def Info: drones.png used on input line 263.
 ] <lidar.jpg, id=216, 496.93619pt x 196.98372pt>
 File: lidar.jpg Graphic file (type jpg)
  <use lidar.jpg>
-Package pdftex.def Info: lidar.jpg used on input line 279.
+Package pdftex.def Info: lidar.jpg used on input line 278.
 (pdftex.def)             Requested size: 245.83282pt x 97.44861pt.
  [20
 
  <./lidar.jpg>]
 File: lidar.jpg Graphic file (type jpg)
  <use lidar.jpg>
-Package pdftex.def Info: lidar.jpg used on input line 279.
+Package pdftex.def Info: lidar.jpg used on input line 278.
 (pdftex.def)             Requested size: 245.83282pt x 97.44861pt.
  [21
 
@@ -1506,13 +1506,13 @@ Package pdftex.def Info: lidar.jpg used on input line 279.
 <osm_members.png, id=233, 625.3764pt x 254.8722pt>
 File: osm_members.png Graphic file (type png)
  <use osm_members.png>
-Package pdftex.def Info: osm_members.png used on input line 305.
+Package pdftex.def Info: osm_members.png used on input line 304.
 (pdftex.def)             Requested size: 107.55098pt x 43.82938pt.
 
 <twittermap.png, id=234, 602.25pt x 342.27875pt>
 File: twittermap.png Graphic file (type png)
  <use twittermap.png>
-Package pdftex.def Info: twittermap.png used on input line 305.
+Package pdftex.def Info: twittermap.png used on input line 304.
 (pdftex.def)             Requested size: 107.55098pt x 61.1218pt.
  [22
 
@@ -1522,7 +1522,7 @@ File: normal_vs_foreign_CapSetmanaCreuers.png Graphic file (type png)
 
 <use normal_vs_foreign_CapSetmanaCreuers.png>
 Package pdftex.def Info: normal_vs_foreign_CapSetmanaCreuers.png used on input 
-line 333.
+line 332.
 (pdftex.def)             Requested size: 107.55098pt x 67.59058pt.
 
 <barriosForeignUsersCapSetmanaCreuers_cnt.png, id=246, 666.23906pt x 444.79578p
@@ -1530,7 +1530,7 @@ t>
 File: barriosForeignUsersCapSetmanaCreuers_cnt.png Graphic file (type png)
  <use barriosForeignUsersCapSetmanaCreuers_cnt.png>
 Package pdftex.def Info: barriosForeignUsersCapSetmanaCreuers_cnt.png used on i
-nput line 333.
+nput line 332.
 (pdftex.def)             Requested size: 107.55098pt x 71.79997pt.
  [23
 
@@ -1540,13 +1540,13 @@ File: normal_vs_foreign_CapSetmanaCreuers.png Graphic file (type png)
 
 <use normal_vs_foreign_CapSetmanaCreuers.png>
 Package pdftex.def Info: normal_vs_foreign_CapSetmanaCreuers.png used on input 
-line 333.
+line 332.
 (pdftex.def)             Requested size: 107.55098pt x 67.59058pt.
 File: barriosForeignUsersCapSetmanaCreuers_cnt.png Graphic file (type png)
 
 <use barriosForeignUsersCapSetmanaCreuers_cnt.png>
 Package pdftex.def Info: barriosForeignUsersCapSetmanaCreuers_cnt.png used on i
-nput line 333.
+nput line 332.
 (pdftex.def)             Requested size: 107.55098pt x 71.79997pt.
  [24
 
@@ -1555,13 +1555,13 @@ File: normal_vs_foreign_CapSetmanaCreuers.png Graphic file (type png)
 
 <use normal_vs_foreign_CapSetmanaCreuers.png>
 Package pdftex.def Info: normal_vs_foreign_CapSetmanaCreuers.png used on input 
-line 333.
+line 332.
 (pdftex.def)             Requested size: 107.55098pt x 67.59058pt.
 File: barriosForeignUsersCapSetmanaCreuers_cnt.png Graphic file (type png)
 
 <use barriosForeignUsersCapSetmanaCreuers_cnt.png>
 Package pdftex.def Info: barriosForeignUsersCapSetmanaCreuers_cnt.png used on i
-nput line 333.
+nput line 332.
 (pdftex.def)             Requested size: 107.55098pt x 71.79997pt.
  [25
 
@@ -1569,10 +1569,10 @@ nput line 333.
 <snow.jpg, id=272, 430.17857pt x 230.57571pt>
 File: snow.jpg Graphic file (type jpg)
  <use snow.jpg>
-Package pdftex.def Info: snow.jpg used on input line 348.
+Package pdftex.def Info: snow.jpg used on input line 347.
 (pdftex.def)             Requested size: 245.83282pt x 131.76726pt.
 
-Overfull \vbox (4.61995pt too high) detected at line 348
+Overfull \vbox (4.61995pt too high) detected at line 347
  []
 
 [26
@@ -1580,10 +1580,10 @@ Overfull \vbox (4.61995pt too high) detected at line 348
  <./snow.jpg>]
 File: snow.jpg Graphic file (type jpg)
  <use snow.jpg>
-Package pdftex.def Info: snow.jpg used on input line 348.
+Package pdftex.def Info: snow.jpg used on input line 347.
 (pdftex.def)             Requested size: 245.83282pt x 131.76726pt.
 
-Overfull \vbox (4.61995pt too high) detected at line 348
+Overfull \vbox (4.61995pt too high) detected at line 347
  []
 
 [27
@@ -1591,28 +1591,28 @@ Overfull \vbox (4.61995pt too high) detected at line 348
 ] <fao.png, id=289, 1239.88219pt x 182.18062pt>
 File: fao.png Graphic file (type png)
  <use fao.png>
-Package pdftex.def Info: fao.png used on input line 363.
+Package pdftex.def Info: fao.png used on input line 362.
 (pdftex.def)             Requested size: 245.83282pt x 36.11856pt.
  [28
 
  <./fao.png (PNG copy)>]
 File: fao.png Graphic file (type png)
  <use fao.png>
-Package pdftex.def Info: fao.png used on input line 363.
+Package pdftex.def Info: fao.png used on input line 362.
 (pdftex.def)             Requested size: 245.83282pt x 36.11856pt.
  [29
 
 ]
 File: fao.png Graphic file (type png)
  <use fao.png>
-Package pdftex.def Info: fao.png used on input line 363.
+Package pdftex.def Info: fao.png used on input line 362.
 (pdftex.def)             Requested size: 245.83282pt x 36.11856pt.
  [30
 
 ]
 File: fao.png Graphic file (type png)
  <use fao.png>
-Package pdftex.def Info: fao.png used on input line 363.
+Package pdftex.def Info: fao.png used on input line 362.
 (pdftex.def)             Requested size: 245.83282pt x 36.11856pt.
  [31
 
@@ -1620,7 +1620,7 @@ Package pdftex.def Info: fao.png used on input line 363.
 <3vs.png, id=323, 411.78844pt x 340.27126pt>
 File: 3vs.png Graphic file (type png)
  <use 3vs.png>
-Package pdftex.def Info: 3vs.png used on input line 377.
+Package pdftex.def Info: 3vs.png used on input line 376.
 (pdftex.def)             Requested size: 153.64493pt x 126.95758pt.
  [32
 
@@ -1628,21 +1628,21 @@ Package pdftex.def Info: 3vs.png used on input line 377.
 File: 3vs.png Graphic file (type png)
 
 <use 3vs.png>
-Package pdftex.def Info: 3vs.png used on input line 377.
+Package pdftex.def Info: 3vs.png used on input line 376.
 (pdftex.def)             Requested size: 153.64493pt x 126.95758pt.
  [33
 
 ]
 File: 3vs.png Graphic file (type png)
  <use 3vs.png>
-Package pdftex.def Info: 3vs.png used on input line 377.
+Package pdftex.def Info: 3vs.png used on input line 376.
 (pdftex.def)             Requested size: 153.64493pt x 126.95758pt.
  [34
 
 ]
 File: 3vs.png Graphic file (type png)
  <use 3vs.png>
-Package pdftex.def Info: 3vs.png used on input line 377.
+Package pdftex.def Info: 3vs.png used on input line 376.
 (pdftex.def)             Requested size: 153.64493pt x 126.95758pt.
  [35
 
@@ -1650,21 +1650,21 @@ Package pdftex.def Info: 3vs.png used on input line 377.
 <general1.png, id=356, 348.55219pt x 207.02344pt>
 File: general1.png Graphic file (type png)
  <use general1.png>
-Package pdftex.def Info: general1.png used on input line 391.
+Package pdftex.def Info: general1.png used on input line 390.
 (pdftex.def)             Requested size: 215.10196pt x 127.75931pt.
  [36
 
  <./general1.png>]
 File: general1.png Graphic file (type png)
  <use general1.png>
-Package pdftex.def Info: general1.png used on input line 391.
+Package pdftex.def Info: general1.png used on input line 390.
 (pdftex.def)             Requested size: 215.10196pt x 127.75931pt.
  [37
 
 ]
 File: general1.png Graphic file (type png)
  <use general1.png>
-Package pdftex.def Info: general1.png used on input line 391.
+Package pdftex.def Info: general1.png used on input line 390.
 (pdftex.def)             Requested size: 215.10196pt x 127.75931pt.
  [38
 
@@ -1672,7 +1672,7 @@ Package pdftex.def Info: general1.png used on input line 391.
 <deep.png, id=382, 1063.975pt x 363.3575pt>
 File: deep.png Graphic file (type png)
  <use deep.png>
-Package pdftex.def Info: deep.png used on input line 406.
+Package pdftex.def Info: deep.png used on input line 405.
 (pdftex.def)             Requested size: 245.83282pt x 83.95302pt.
  [39
 
@@ -1680,28 +1680,28 @@ Package pdftex.def Info: deep.png used on input line 406.
 File: deep.png Graphic file (type png)
 
 <use deep.png>
-Package pdftex.def Info: deep.png used on input line 406.
+Package pdftex.def Info: deep.png used on input line 405.
 (pdftex.def)             Requested size: 245.83282pt x 83.95302pt.
  [40
 
 ]
 File: deep.png Graphic file (type png)
  <use deep.png>
-Package pdftex.def Info: deep.png used on input line 406.
+Package pdftex.def Info: deep.png used on input line 405.
 (pdftex.def)             Requested size: 245.83282pt x 83.95302pt.
  [41
 
 ]
 File: deep.png Graphic file (type png)
  <use deep.png>
-Package pdftex.def Info: deep.png used on input line 406.
+Package pdftex.def Info: deep.png used on input line 405.
 (pdftex.def)             Requested size: 245.83282pt x 83.95302pt.
  [42
 
 ]
 File: deep.png Graphic file (type png)
  <use deep.png>
-Package pdftex.def Info: deep.png used on input line 406.
+Package pdftex.def Info: deep.png used on input line 405.
 (pdftex.def)             Requested size: 245.83282pt x 83.95302pt.
 
 [43
@@ -1709,10 +1709,10 @@ Package pdftex.def Info: deep.png used on input line 406.
 ] <prediction.png, id=425, 1028.34187pt x 578.16pt>
 File: prediction.png Graphic file (type png)
  <use prediction.png>
-Package pdftex.def Info: prediction.png used on input line 424.
+Package pdftex.def Info: prediction.png used on input line 423.
 (pdftex.def)             Requested size: 184.3758pt x 103.6585pt.
 
-Overfull \vbox (11.18207pt too high) detected at line 424
+Overfull \vbox (11.18207pt too high) detected at line 423
  []
 
 [44
@@ -1720,10 +1720,10 @@ Overfull \vbox (11.18207pt too high) detected at line 424
  <./prediction.png>]
 File: prediction.png Graphic file (type png)
  <use prediction.png>
-Package pdftex.def Info: prediction.png used on input line 424.
+Package pdftex.def Info: prediction.png used on input line 423.
 (pdftex.def)             Requested size: 184.3758pt x 103.6585pt.
 
-Overfull \vbox (11.18207pt too high) detected at line 424
+Overfull \vbox (11.18207pt too high) detected at line 423
  []
 
 [45
@@ -1731,10 +1731,10 @@ Overfull \vbox (11.18207pt too high) detected at line 424
 ]
 File: prediction.png Graphic file (type png)
  <use prediction.png>
-Package pdftex.def Info: prediction.png used on input line 424.
+Package pdftex.def Info: prediction.png used on input line 423.
 (pdftex.def)             Requested size: 184.3758pt x 103.6585pt.
 
-Overfull \vbox (11.18207pt too high) detected at line 424
+Overfull \vbox (11.18207pt too high) detected at line 423
  []
 
 [46
@@ -1742,33 +1742,168 @@ Overfull \vbox (11.18207pt too high) detected at line 424
 ]
 File: prediction.png Graphic file (type png)
  <use prediction.png>
-Package pdftex.def Info: prediction.png used on input line 424.
+Package pdftex.def Info: prediction.png used on input line 423.
 (pdftex.def)             Requested size: 184.3758pt x 103.6585pt.
 
-Overfull \vbox (11.18207pt too high) detected at line 424
+Overfull \vbox (11.18207pt too high) detected at line 423
  []
 
 [47
 
-] [48
+] <guardian.png, id=459, 917.4275pt x 480.79625pt>
+File: guardian.png Graphic file (type png)
+ <use guardian.png>
+Package pdftex.def Info: guardian.png used on input line 440.
+(pdftex.def)             Requested size: 184.3758pt x 96.61972pt.
 
-] [49
+[48
 
-] [50
+ <./guardian.png (PNG copy)>]
+File: guardian.png Graphic file (type png)
+ <use guardian.png>
+Package pdftex.def Info: guardian.png used on input line 440.
+(pdftex.def)             Requested size: 184.3758pt x 96.61972pt.
+ [49
 
-] [51
+]
+File: guardian.png Graphic file (type png)
+ <use guardian.png>
+Package pdftex.def Info: guardian.png used on input line 440.
+(pdftex.def)             Requested size: 184.3758pt x 96.61972pt.
 
-] <end.jpg, id=491, 1284.8pt x 722.7pt>
+[50
+
+] <dashboard.png, id=485, 945.5325pt x 499.8675pt>
+File: dashboard.png Graphic file (type png)
+ <use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 458.
+(pdftex.def)             Requested size: 245.83282pt x 129.96248pt.
+
+Overfull \vbox (7.28601pt too high) detected at line 458
+ []
+
+[51
+
+ <./dashboard.png (PNG copy)>]
+File: dashboard.png Graphic file (type png)
+ <use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 458.
+(pdftex.def)             Requested size: 245.83282pt x 129.96248pt.
+
+Overfull \vbox (7.28601pt too high) detected at line 458
+ []
+
+[52
+
+]
+File: dashboard.png Graphic file (type png)
+ <use dashboard.png>
+Package pdftex.def Info: dashboard.png used on input line 458.
+(pdftex.def)             Requested size: 245.83282pt x 129.96248pt.
+
+Overfull \vbox (7.28601pt too high) detected at line 458
+ []
+
+[53
+
+] <woordle.jpeg, id=510, 623.32875pt x 339.51843pt>
+File: woordle.jpeg Graphic file (type jpg)
+ <use woordle.jpeg>
+Package pdftex.def Info: woordle.jpeg used on input line 476.
+(pdftex.def)             Requested size: 184.3758pt x 100.42645pt.
+
+[54
+
+ <./woordle.jpeg>]
+File: woordle.jpeg Graphic file (type jpg)
+ <use woordle.jpeg>
+Package pdftex.def Info: woordle.jpeg used on input line 476.
+(pdftex.def)             Requested size: 184.3758pt x 100.42645pt.
+ [55
+
+]
+File: woordle.jpeg Graphic file (type jpg)
+ <use woordle.jpeg>
+Package pdftex.def Info: woordle.jpeg used on input line 476.
+(pdftex.def)             Requested size: 184.3758pt x 100.42645pt.
+ [56
+
+]
+<sism.png, id=538, 656.4525pt x 478.78876pt>
+File: sism.png Graphic file (type png)
+ <use sism.png>
+Package pdftex.def Info: sism.png used on input line 496.
+(pdftex.def)             Requested size: 122.91406pt x 89.64847pt.
+ [57
+
+ <./sism.png (PNG copy)>]
+File: sism.png Graphic file (type png)
+ <use sism.png>
+Package pdftex.def Info: sism.png used on input line 496.
+(pdftex.def)             Requested size: 122.91406pt x 89.64847pt.
+ [58
+
+]
+File: sism.png Graphic file (type png)
+ <use sism.png>
+Package pdftex.def Info: sism.png used on input line 496.
+(pdftex.def)             Requested size: 122.91406pt x 89.64847pt.
+ [59
+
+]
+File: sism.png Graphic file (type png)
+ <use sism.png>
+Package pdftex.def Info: sism.png used on input line 496.
+(pdftex.def)             Requested size: 122.91406pt x 89.64847pt.
+ [60
+
+]
+<geodemographics.jpg, id=571, 1460.45625pt x 880.28876pt>
+File: geodemographics.jpg Graphic file (type jpg)
+
+<use geodemographics.jpg>
+Package pdftex.def Info: geodemographics.jpg used on input line 516.
+(pdftex.def)             Requested size: 122.91406pt x 74.07806pt.
+ [61
+
+ <./geodemographics.jpg>]
+File: geodemographics.jpg Graphic file (type jpg)
+
+<use geodemographics.jpg>
+Package pdftex.def Info: geodemographics.jpg used on input line 516.
+(pdftex.def)             Requested size: 122.91406pt x 74.07806pt.
+ [62
+
+]
+File: geodemographics.jpg Graphic file (type jpg)
+ <use geodemographics.jpg>
+Package pdftex.def Info: geodemographics.jpg used on input line 516.
+(pdftex.def)             Requested size: 122.91406pt x 74.07806pt.
+ [63
+
+]
+File: geodemographics.jpg Graphic file (type jpg)
+
+<use geodemographics.jpg>
+Package pdftex.def Info: geodemographics.jpg used on input line 516.
+(pdftex.def)             Requested size: 122.91406pt x 74.07806pt.
+ [64
+
+] [65
+
+] [66
+
+] <end.jpg, id=620, 1284.8pt x 722.7pt>
 File: end.jpg Graphic file (type jpg)
- <use end.jpg>
-Package pdftex.def Info: end.jpg used on input line 481.
-(pdftex.def)             Requested size: 184.3758pt x 103.7026pt.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 481
-.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+<use end.jpg>
+Package pdftex.def Info: end.jpg used on input line 558.
+(pdftex.def)             Requested size: 184.3758pt x 103.7026pt.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 558
+.
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [52
+) [67
 
  <./end.jpg>]
 \tf@nav=\write6
@@ -1780,20 +1915,21 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@snm=\write8
 \openout8 = `sasig.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 484.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 484.
- (./sasig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 484.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 484.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
+
+(./sasig.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
 Package rerunfilecheck Info: File `sasig.out' has not changed.
 (rerunfilecheck)             Checksum: 39E73E78DFDB0B3E3297F38ACF97D88A;154.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 484.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
  ) 
 Here is how much of TeX's memory you used:
- 28545 strings out of 495024
- 561167 string characters out of 6181546
+ 28641 strings out of 495024
+ 562961 string characters out of 6181546
  621518 words of memory out of 5000000
- 31107 multiletter control sequences out of 15000+600000
+ 31167 multiletter control sequences out of 15000+600000
  40827 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,23n,76p,10411b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1805,9 +1941,9 @@ mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on sasig.pdf (52 pages, 6564257 bytes).
+Output written on sasig.pdf (67 pages, 7507881 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -97,8 +97,7 @@
  
 \begin{frame}
 \frametitle{Tabela de Conte\'{u}dos}
-\tiny{
-\tableofcontents}
+\tableofcontents
 \end{frame}
 
 %TODO: change layout, atribuitions, trocar cont. por exemplo
@@ -426,25 +425,103 @@ A disponibilidade crescente de dados e os progressos computacionais vao impulsio
 
 \begin{frame}
 \frametitle{Jornalismo de Dados \& \textit{Story Telling}}
-
-%TODO: explain story telling; exemplo Kibana de acidentes
-% visualizacao: em outro slide?
+ %“those who tell stories rule society.” 
+      \begin{itemize}         
+        \item<1->Os dados quantitativos teem um papel cada vez mais valorizado na producao e distribuicao de informacao.
+        \item<2->Existe uma necessidade crescente de apresentar ``historias'' de dados a uma audiencia mais vasta (infografia).
+        \item<3->As visualizacoes (incluindo mapas) podem ser uma ferramenta valiosa.
+       \end{itemize}            
+          
+        \begin{figure}   
+            \includegraphics[width=0.6\textwidth]{guardian.png}\\
+         \tiny{Visualizacao de retweets de um rumor, por Twitter account}%Guardian: put source            
+        \end{figure} 
 
 \end{frame}
+
+\begin{frame}
+\frametitle{Jornalismo de Dados \& \textit{Story Telling} (cont.)}
+
+    \small{
+     As dashboard dao a possibilidade de visualizar os dados de forma dinamica, e em tempo real.
+      \begin{itemize}         
+        %\item<1->Sao uma ferramenta cada vez mais utilizada para contar historias ``guiadas'' pelos dados.
+        \item<2->Uma dashboard foi desenvolvida para transmitir os insights sobre acidentes graves e mortais na cidade de Barcelona.
+        %\item<3->Uma serie de widgets (graficos, mapas, metricas) descrevem os dados de acidentes.
+        \item<3->A stack utilizada (ELK) permite uma actualizacao em tempo real.%ELK
+       \end{itemize}            
+      }    
+        \begin{figure}   
+            \includegraphics[width=0.8\textwidth]{dashboard.png}
+        \end{figure} 
+
+\end{frame}
+
+
 
 \begin{frame}
 \frametitle{Mais e Melhores Dados Abertos}
 
-%TODO: explain Open Data; falar do OpenGOV
+      \begin{itemize}         
+        \item<1->``Revolucao'' dos dados abertos.%Seguindo a ``revolucao'' do Software aberto e dos standards abertos
+        \item<2->Cada vez mais instituicoes sao ``pressionadas'' para abrir os seus dados.
+        \item<3->Qualidade dos dados.%problema a abordar: ha vontade, mas n ha dinheiro. mas necessitamos de dados a serio, e nao so formalmente
+       \end{itemize}            
+          
+        \begin{figure}   
+            \includegraphics[width=0.6\textwidth]{woordle.jpeg}\\
+         %\tiny{Visualizacao de retweets de um rumor, por Twitter account}%Guardian: put source            
+        \end{figure} 
 
 \end{frame}
 
 \begin{frame}
+\frametitle{Mais e Melhores Dados Abertos (cont.)}
+
+    \small{
+    %Dados Abertos Publicos: Manter a informacao actualizada = transparencia.
+    \begin{itemize}
+        \item<2->2013: ficheiro actualizado varias vezes por semana com as 8191 entidades que compoem a estrutura do governo e Adminstracao Publica Catala.
+        \item<3->Sismografo da Catalunya @OpenGovCat: permite visualizar estes dados.
+        \begin{itemize}%Que aconteceu no departamento de Agricultura num dia cinzento de Janeiro (2014), quando         
+            \item<4->\textit{Porque foram criadas 32 entidades novas e 57 entidades ficaram subitamente sem responsavel?}
+        \end{itemize}                    
+        %\item<5->   Depois de mudar o formato dos dados, em Marco de 2015 a Generalidade deixou de publicar os dados.%numa altura em que ha mts mudancas (pre-eleitoral)        
+    \end{itemize}                      
+        }
+        \begin{figure}   
+            \includegraphics[width=0.4\textwidth]{sism.png}%http://opengov.cat/en/                
+        \end{figure} 
+    
+\end{frame}
+
+
+\begin{frame}
 \frametitle{\'{E}tica}
+%What do we gain by protecting privacy?
+%How about democracy?  Heterogeneity?  Dignity?  (Onsrud, 2005)
+%Privacy is the basis of democracy 
+
+    \begin{itemize}
+        \item<2->As pessoas estao cada vez mais preocupadas com o uso dos seus dados pessoais, o que esta reflectido em leis de privacidade.
+        \item<3->Devido a sua natureza, os dados de localizacao sao particularmente sensiveis.
+        \item<4->Existe uma necessidade de desenvolver metodos que abordem estas preocupacoes.
+    \end{itemize}                      
+    
+        \begin{figure}   
+            \includegraphics[width=0.4\textwidth]{geodemographics.jpg}\\
+            \tiny{Os mapas de geodemografia suscitam algumas questoes de privacidade.}%www.rdaresearch.com/blog/page/5/#
+        \end{figure} 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{\'{E}tica (cont.)}
 
 %TODO: spatial obfuscation
 
 \end{frame}
+
 
 \section{Consideracoes Finais} 
 
