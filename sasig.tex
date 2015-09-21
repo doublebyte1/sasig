@@ -23,7 +23,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newmdenv[tikzsetting={draw=black,fill=white,fill opacity=0.5, line width=0pt},
-      backgroundcolor=none,leftmargin=5,rightmargin=5,innertopmargin=4pt]
+      backgroundcolor=none,leftmargin=0,rightmargin=0,innertopmargin=4pt]
       {titleBox}
 
 
@@ -100,7 +100,7 @@
 \tableofcontents
 \end{frame}
 
-%TODO: change layout, atribuitions, trocar cont. por exemplo
+%TODO: change layout, atribuitions, shorter text, refactor for story stelling, practice
 
 \section{Introdu\c{c}\~{a}o} 
 \begin{frame}
@@ -517,8 +517,21 @@ A disponibilidade crescente de dados e os progressos computacionais vao impulsio
 
 \begin{frame}
 \frametitle{\'{E}tica (cont.)}
-
-%TODO: spatial obfuscation
+\tiny{
+    \begin{itemize}
+        \item<1->Obfuscacao espacial: altera, substitui ou generaliza a localizacao dos utilizadores, por forma a esconder a sua localizacao real.
+        \item<3->Maximizar a qualidade da informacao, para um grau minimo de anominidade
+        %\item<4->Annonimity set: conjunto de individuos que ofusca o individuo.%2: informacao dissociada
+        %\item<5->MSV: numero minimo de individuos que aceitamos no grupo.%2: informacao dissociada  
+        \item<6->Transformar os pontos originais (raw points) numa quadricula de densidades, respeitando o MSV.%Quadtree
+    \end{itemize}                      
+}    
+        \begin{figure}   
+            \includegraphics[width=0.4\textwidth]{raw_points.png}
+            \tiny{Raw points vs}
+            \includegraphics[width=0.4\textwidth]{ofuscated.png}\\
+            \tiny{Ofuscated points.}            
+        \end{figure} 
 
 \end{frame}
 
@@ -526,26 +539,30 @@ A disponibilidade crescente de dados e os progressos computacionais vao impulsio
 \section{Consideracoes Finais} 
 
 \begin{frame}
-\frametitle{Import\^{a}ncia destas Tend\^{e}ncias para o FOSS4G}
+\frametitle{SIG Open-Source?}
 
-%TODO: SIG Open-Source
-%Free and Open Source Software for Geospatia
-
-%ha mais dados e mais pessoas a quererem trabalhar com eles...
-
-%Areas onde o FOSS4Geo se pode import
-
-%standards de dados abertos (formatos, servicos); nao existem formatos standard para IoT
-%bibliotecas de machine learning com capacidades espaciais (QGIS, R)
-%visualiacao: D3
-%infra estrutura e processamento de Big Spatial Data
+        \begin{figure}   
+            \includegraphics[width=0.8\textwidth]{tux.png}
+        \end{figure} 
 
 \end{frame}
 
-%Slide final
 
-%importancia do software aberto para a Etica> Trust
-%Nao ha backdoors ou codigo mailicioso
+
+\begin{frame}
+\frametitle{Import\^{a}ncia destas Tend\^{e}ncias para o FOSS4G}
+
+    Mais aplicacoes e mais quantidades de dados: maior comunidade%pressao no desenvolvimento
+    \begin{itemize}
+        %\item<2->Standards de dados abertos (formatos, servicoes).
+        \item<1->Infra estruturas colaborativas de dados.
+        \item<2->Bibliotecas de ML com capacidades espaciais.
+        \item<2->Visualizacao (interactiva) de dados espaciais (3D).
+        \item<2->Infra estrutura e processamento de Big Spatial Data.
+        \item<2->Etica e privacidade.%O software aberto garante que nao existam backdoors ou codigo malicioso
+    \end{itemize}                      
+
+\end{frame}
 
 
 \begin{frame}

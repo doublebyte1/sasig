@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  18 SEP 2015 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.2)  21 SEP 2015 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1889,21 +1889,105 @@ Package pdftex.def Info: geodemographics.jpg used on input line 516.
 (pdftex.def)             Requested size: 122.91406pt x 74.07806pt.
  [64
 
-] [65
+] <raw_points.png, id=605, 963.6pt x 722.7pt>
+File: raw_points.png Graphic file (type png)
 
-] [66
+<use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ <ofuscated.png, id=606, 963.6pt x 722.7pt>
+File: ofuscated.png Graphic file (type png)
 
-] <end.jpg, id=620, 1284.8pt x 722.7pt>
+<use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [65
+
+ <./raw_points.png> <./ofuscated.png>]
+File: raw_points.png Graphic file (type png)
+
+<use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+File: ofuscated.png Graphic file (type png)
+ <use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [66
+
+]
+File: raw_points.png Graphic file (type png)
+ <use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+File: ofuscated.png Graphic file (type png)
+
+<use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [67
+
+]
+File: raw_points.png Graphic file (type png)
+ <use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+File: ofuscated.png Graphic file (type png)
+ <use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [68
+
+]
+File: raw_points.png Graphic file (type png)
+
+<use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+File: ofuscated.png Graphic file (type png)
+ <use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [69
+
+]
+File: raw_points.png Graphic file (type png)
+ <use raw_points.png>
+Package pdftex.def Info: raw_points.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+File: ofuscated.png Graphic file (type png)
+
+<use ofuscated.png>
+Package pdftex.def Info: ofuscated.png used on input line 536.
+(pdftex.def)             Requested size: 122.91406pt x 92.17886pt.
+ [70
+
+] <tux.png, id=658, 560.0925pt x 642.4pt>
+File: tux.png Graphic file (type png)
+ <use tux.png>
+Package pdftex.def Info: tux.png used on input line 548.
+(pdftex.def)             Requested size: 245.83282pt x 281.96092pt.
+
+Overfull \vbox (84.78445pt too high) detected at line 548
+ []
+
+[71
+
+ <./tux.png>] [72
+
+] [73
+
+] <end.jpg, id=684, 1284.8pt x 722.7pt>
 File: end.jpg Graphic file (type jpg)
-
-<use end.jpg>
-Package pdftex.def Info: end.jpg used on input line 558.
+ <use end.jpg>
+Package pdftex.def Info: end.jpg used on input line 575.
 (pdftex.def)             Requested size: 184.3758pt x 103.7026pt.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 558
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 575
 .
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [67
+) [74
 
  <./end.jpg>]
 \tf@nav=\write6
@@ -1915,24 +1999,23 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@snm=\write8
 \openout8 = `sasig.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
-
-(./sasig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
+ (./sasig.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 578.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
 Package rerunfilecheck Info: File `sasig.out' has not changed.
 (rerunfilecheck)             Checksum: 39E73E78DFDB0B3E3297F38ACF97D88A;154.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 578.
  ) 
 Here is how much of TeX's memory you used:
- 28641 strings out of 495024
- 562961 string characters out of 6181546
+ 28672 strings out of 495024
+ 563337 string characters out of 6181546
  621518 words of memory out of 5000000
- 31167 multiletter control sequences out of 15000+600000
+ 31181 multiletter control sequences out of 15000+600000
  40827 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,23n,76p,10411b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,23n,76p,10411b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/sha
 re/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/
@@ -1941,9 +2024,9 @@ mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on sasig.pdf (67 pages, 7507881 bytes).
+Output written on sasig.pdf (74 pages, 7688741 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
